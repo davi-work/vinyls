@@ -1,0 +1,95 @@
+@media (max-width: 1625px) {
+  .header-icons{
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .header_nav-list{
+    padding: 24px;
+  }
+  .header_nav-list li a{
+    font-size: 30px;
+  }
+  .header_nav-input{
+    padding: 8px 12px 8px 20px;
+  }
+  .header_nav-input input, .header_nav-input input::placeholder{
+    font-size: 20px;
+  }
+  .header_nav{
+    /* background: rgba(0, 0, 0, 0.15); */
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-title{
+    font-size: 36px;
+  }
+  .footer-info{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+  .burger-exit, .burger-trigger {
+    display: flex;
+  }
+  .header_nav .container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    gap: 25px;
+  }
+  .header_nav-input{
+    max-width: 450px;
+    width: 100%;
+  }
+  .main-title{ 
+    font-size: 32px;
+  }
+  .footer-title{
+    font-size: 24px;
+  }
+  .footer a{
+    font-size: 20px;
+  }
+  .releases-cards-item-title{
+    font-size: 20px;
+    padding: 16px;
+  }
+  .rights{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer-list{
+    justify-content: center;
+  }
+  .footer a{
+    font-size: 16px;
+  }
+  .header_nav-input{
+    padding: 4px 8px 4px 12px;
+  }
+  .header_nav-input input{
+    font-size: 16px;
+  }
+  .header_nav-input input::placeholder{
+    font-size: 16px;
+  }
+  .header_nav-input img{
+    width: 26px;
+    height: 26px;  
+  }
+  .burger-trigger img{
+    width: 36px;
+    height: 36px;
+  }
+}
+

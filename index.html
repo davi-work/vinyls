@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Records</title>
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="header_nav">
+      <div class="container">
+        <!-- Для burgerMenu добавляется класс burger-menu и burger-menu-active-->
+        <ul class="header_nav-list">
+          <button class="burger-exit"><img src="./img/cross.svg" alt=""></button>
+          <li><a href="#">Main</a></li>
+          <li><a href="#">Genres</a></li>
+          <li><a href="#">Artists</a></li>
+          <li><a href="#">Albums</a></li>
+          <li><a href="#">Songs</a></li>
+        </ul>
+        <button class="burger-trigger"><img src="./img/burger.svg" alt=""></button>
+        <div class="header_nav-input">
+          <input type="text" placeholder="Albums, artists, songs...">
+          <img src="./img/search.svg" alt="">
+        </div>
+      </div>
+    </nav>
+    <img src="./img/header-bg.png" alt="" class="header-bg">
+    <div class="header-icons">
+      <img src="img/instagram.svg" alt="">
+      <img src="img/pinterest.svg" alt="">
+    </div>
+  </header>
+  
+  <main class="main">
+    <section>
+      <h2 class="main-title">CHECK OUR COLLECTION NOW</h2>
+      <!-- <div class="swiper mySwiper">
+        <div class="swiper__wrapper">
+          <img src="img/prev.svg" alt="" class="swiper-nav prev">
+          <img src="img/next.svg" alt="" class="swiper-nav next">
+          <img src="./img/queen2.png" alt="" class="swiper-item">
+          <img src="./img/queen2.png" alt="" class="swiper-item">
+          <img src="./img/queen2.png" alt="" class="swiper-item">
+          <img src="./img/queen2.png" alt="" class="swiper-item">
+          <img src="./img/queen2.png" alt="" class="swiper-item">
+          <img src="./img/queen2.png" alt="" class="swiper-item">
+        </div>
+      </div> -->
+    </section>
+    <section class="releases">
+      <h2 class="main-title">NEW RELEASES</h2>
+      <div class="releases-cards container">
+        
+        <!-- <div class="releases-cards-item">
+          <span class="releases-cards-absolute price">
+            100$
+          </span>
+          <div class="releases-cards-absolute btns">
+            <button><img src="./img/like.svg" alt=""></button>
+            <button><img src="./img/cart.svg" alt=""></button>
+          </div>
+          <img src="img/card1.png" alt="">
+          <h3 class="releases-cards-item-title">Bob Marley and the Wailers Vinyl Record</h3>
+        </div> -->
+    
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-list">
+        <li><a href="#">Main</a></li>
+        <li><a href="#">Genres</a></li>
+        <li><a href="#">Artists</a></li>
+        <li><a href="#">Albums</a></li>
+        <li><a href="#">Songs</a></li>
+      </ul>
+      <div class="footer-info">
+        <div class="footer-info-formHolder">
+          <h2 class="footer-title">CONTACT US</h2>
+          <form class="footer-form">
+            <div class="form-inputs">
+              <input type="text" id="name" placeholder="Name..." required>
+              <input type="text" id="number" placeholder="Phone number..." required>
+            </div>
+            <div class="request">
+              <input id="message" type="text" placeholder="Your request...">
+              <button>SEND</button>
+            </div>
+          </form>
+        </div> 
+        <div class="footer-socLinks">
+          <h2 class="footer-title">GET IN TOUCH WITH US</h2>
+          <div class="footer-socLinks-links">
+            <a href="#"><img src="./img/inst.svg" alt=""></a>
+            <a href="#"><img src="./img/twitter.svg" alt=""></a>
+            <a href="#"><img src="./img/facebook.svg" alt=""></a>
+          </div>
+          <a href="#">+998 00 213 45 54</a>
+          <a href="#">+998 00 546 78 87</a>
+        </div>
+      </div>
+      <p class="rights"> Copyright 2024. All right reserved.</p>
+      
+    </div>
+  </footer>
+  
+  <script type="module" src="./script/script.js"></script>
+  <!-- Live server -->
+</body>
+</html>
